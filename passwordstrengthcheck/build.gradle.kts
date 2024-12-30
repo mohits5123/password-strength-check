@@ -9,7 +9,8 @@ android {
     namespace = "com.mohits5123.passwordstrengthcheck"
     defaultConfig {
         minSdk = 21
-        targetSdk = 35
+        testOptions.targetSdk = 35
+        lint.targetSdk = 35
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -46,7 +47,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.mohits5123"
                 artifactId = "password-strength-check"
-                version = "0.1.1"
+                version = "0.1.2"
             }
         }
     }
