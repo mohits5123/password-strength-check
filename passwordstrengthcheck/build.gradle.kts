@@ -44,9 +44,9 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.github.mohits5123.password-strength-check"
+                groupId = "com.mohits5123"
                 artifactId = "password-strength-check"
-                version = "0.1.0"
+                version = "0.1.1"
             }
         }
     }
