@@ -55,4 +55,5 @@ dependencies {
     implementation(libs.lifecycle.runtime)
     implementation(libs.activity.compose)
     debugImplementation(libs.compose.tooling.preview)
+    implementation(libs.compose.tooling.tool)
 }

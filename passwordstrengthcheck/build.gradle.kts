@@ -47,7 +47,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.mohits5123"
                 artifactId = "password-strength-check"
-                version = "0.1.2"
+                version = "0.1.3"
             }
         }
     }
